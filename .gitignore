@@ -1,1 +1,8 @@
+#### idea files
+*.iml
+*.ipr
+.idea/
+META-INF/
+
+# vagrant vm
 .vagrant
