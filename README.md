@@ -1,4 +1,8 @@
-[![Gratipay](http://img.shields.io/gratipay/hopsoft.svg?style=flat)](https://gratipay.com/hopsoft/)
+#additions:
+default .htpasswd for nginx, login: root pass: root 
+
+
+
 
 # Docker Image for Graphite & Statsd
 
