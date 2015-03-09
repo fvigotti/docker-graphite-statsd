@@ -53,6 +53,7 @@ ADD conf/statsd/config.js /opt/statsd/config.js
 # config nginx
 RUN rm /etc/nginx/sites-enabled/default
 ADD conf/nginx/nginx.conf /etc/nginx/nginx.conf
+ADD conf/nginx/.htpasswd /etc/nginx/.htpasswd
 ADD conf/nginx/graphite.conf /etc/nginx/sites-available/graphite.conf
 RUN ln -s /etc/nginx/sites-available/graphite.conf /etc/nginx/sites-enabled/graphite.conf
 
