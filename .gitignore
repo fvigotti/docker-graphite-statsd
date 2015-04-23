@@ -3,6 +3,5 @@
 *.ipr
 .idea/
 META-INF/
-
 # vagrant vm
 .vagrant
